@@ -1,4 +1,4 @@
-# birobirobiro.dev
+# gustavomendes.dev
 
 > My personal website <3
 
@@ -18,13 +18,13 @@
 1. Clone this repo:
 
 ```sh
-$ git clone https://github.com/birobirobiro/birobirobiro.dev.git
+$ git clone https://github.com/GustavoMendes21/gustavomendes.dev
 ```
 
 2. Then go to the project's folder:
 
 ```sh
-cd birobirobiro.dev
+cd gustavoportifolio
 ```
 
 3. Install all dependencies:

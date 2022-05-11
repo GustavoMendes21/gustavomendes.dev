@@ -79,7 +79,7 @@ function Projects(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        {/* <meta content="https://birobirobiro.dev/projects" property="og:url" /> */}
+        <meta content="https://gustavomendes.vercel.app/projects" property="og:url" />
         {/* <meta content={`${image}`} property="og:image" /> */}
       </Head>
 

@@ -154,7 +154,7 @@ function About(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        {/* <meta content="https://birobirobiro.dev/about" property="og:url" /> */}
+        <meta content="https://gustavomendes.vercel.app/about" property="og:url" />
         {/* <meta content={`https://birobirobiro.dev${image}`} property="og:image" /> */}
       </Head>
 

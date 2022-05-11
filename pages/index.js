@@ -26,7 +26,7 @@ export default function Index(props) {
         <meta content={title} property="og:title" />
         <meta content={description} name="description" />
         <meta content={description} property="og:description" />
-        {/* <meta content="https://birobirobiro.dev" property="og:url" /> */}
+        <meta content="https://gustavomendes.vercel.app/" property="og:url" />
         {/* <meta content={`${image}`} property="og:image" /> */}
       </Head>
 

@@ -33,7 +33,7 @@ export default function Footer() {
     },
     {
       title: 'Source',
-      url: 'https://github.com/birobirobiro/birobirobiro.dev',
+      url: 'https://github.com/GustavoMendes21/gustavomendes.dev',
       icon: <RiBracesLine color='#44475a' />,
       color: '#44475a',
 
