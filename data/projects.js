@@ -20,7 +20,7 @@ const items = [
         title: 'AutoTech',
         description: 'Aplicação de gestão para uma concessionária',
         url: 'https://github.com/GustavoMendes21/AutoTech-',
-        imageUrl: 'https://github.com/GustavoMendes21/AutoTech-/blob/main/src/assets/screenshot-preview.png',
+        imageUrl: 'https://raw.githubusercontent.com/GustavoMendes21/AutoTech-/main/src/assets/screenshot-preview.png',
         active: true,
       }
     ],
