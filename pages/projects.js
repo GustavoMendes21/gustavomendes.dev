@@ -26,7 +26,7 @@ function Projects(props) {
       'Netflix Interface Clone',
       'Broker Premium',
       'DT Money',
-      'SpaceY'
+      'AutoTech'
     ]
 
     return items

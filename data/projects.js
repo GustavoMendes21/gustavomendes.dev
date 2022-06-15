@@ -15,6 +15,13 @@ const items = [
         url: 'https://github.com/GustavoMendes21/dtmoney-reactjs',
         imageUrl: 'https://raw.githubusercontent.com/GustavoMendes21/dtmoney-reactjs/main/public/screenshot-rocks.png',
         active: true,
+      },
+      {
+        title: 'AutoTech',
+        description: 'Aplicação de gestão para uma concessionária',
+        url: 'https://github.com/GustavoMendes21/AutoTech-',
+        imageUrl: 'https://github.com/GustavoMendes21/AutoTech-/blob/main/src/assets/screenshot-preview.png',
+        active: true,
       }
     ],
   },
