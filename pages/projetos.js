@@ -27,7 +27,8 @@ function Projects(props) {
       'Broker Premium',
       'DT Money - Frontend',
       'DT Money - Backend',
-      'AutoTech'
+      'AutoTech',
+      'Gmp Ecommerce'
     ]
 
     return items

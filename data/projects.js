@@ -3,13 +3,6 @@ const items = [
     year: '2022',
     projects: [
       {
-        title: 'Broker Premium',
-        description: "Dashboard de uma Corretora de Investimentos Usando ReactJS + Typescript",
-        url: 'https://github.com/GustavoMendes21/broker-premium',
-        imageUrl: 'https://raw.githubusercontent.com/GustavoMendes21/broker-premium/main/preview.png',
-        active: true,
-      },
-      {
         title: 'DT Money - Frontend',
         description: 'Front-end de uma aplicação de controle financeiro',
         url: 'https://github.com/GustavoMendes21/dtmoney-reactjs',
@@ -21,6 +14,20 @@ const items = [
         description: 'Back-end da aplicação de controle financeiro',
         url: 'https://github.com/GustavoMendes21/backend-dt-money',
         imageUrl: 'https://raw.githubusercontent.com/GustavoMendes21/backend-dt-money/main/dt-money-backend-preview.png',
+        active: true,
+      },
+      {
+        title: 'Broker Premium',
+        description: "Dashboard de uma Corretora de Investimentos Usando ReactJS + Typescript",
+        url: 'https://github.com/GustavoMendes21/broker-premium',
+        imageUrl: 'https://raw.githubusercontent.com/GustavoMendes21/broker-premium/main/preview.png',
+        active: true,
+      },
+      {
+        title: 'Gmp Ecommerce',
+        description: 'E-commerce de peças automotivas',
+        url: 'https://github.com/GustavoMendes21/ecommerce-gmp',
+        imageUrl: 'https://raw.githubusercontent.com/GustavoMendes21/ecommerce-gmp/main/frontend/assets/preview.png',
         active: true,
       },
       {
@@ -62,3 +69,4 @@ const items = [
 ]
 
 export default items
+// 
