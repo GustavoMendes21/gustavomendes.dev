@@ -54,7 +54,7 @@ export default function Index(props) {
 
               >{title}</h1>
               <p>
-                <strong>Front-end Developer </strong><br />
+                <strong>Desenvolvedor Web</strong><br />
                 {description}.
               </p>
               <ShortcutHome />

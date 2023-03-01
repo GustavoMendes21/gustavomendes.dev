@@ -18,7 +18,7 @@ export async function getStaticProps() {
     title: 'Sobre | Gustavo Mendes',
     description:
       "Gosto muito de tecnologia, carros e investimentos, meu principal objetivo hoje é aprender. 🧠",
-    tagline: 'About me.',
+    tagline: 'Sobre mim',
     image: '',
     primaryColor: 'gradientBlue',
     secondaryColor: 'gradientPink',
@@ -58,12 +58,16 @@ function About(props) {
           </Paragraph>
 
           <Paragraph>
-            Sempre gostei muito de tecnologia e tive curiosidade em saber como as coisas funcionam por trás das abstrações, comecei a estudar desenvolvimento no final de 2020, e hoje tenho conhecimento em: 
-            HTML, CSS, Javascript, ReactJS, NextJS, Typescript, NodeJS, Banco de dados SQL e o básico de Linux.
+            Sempre gostei muito de tecnologia e tive curiosidade em saber como as coisas funcionam por trás das abstrações. 
           </Paragraph>
 
           <Paragraph>
-            Atualmente estou focado em masterizar minhas hábilidades em Front-End, mas também, busco aprender sobre Back-End e os demais conceitos da Tecnologia.
+            Me aprofundei na stack Javascript/Typescript, 
+            trabalho com ReactJs/NextJs no Frontend e NodeJs com Express/NestJS para aplicações backend.
+          </Paragraph>
+
+          <Paragraph>
+            Busco me aprofundar também nas bases a programação, estudando algoritmos, estruturas de dados, paradigmas de programação e Clean code.
           </Paragraph>
         </Section>
       </Container>
@@ -154,7 +158,7 @@ function About(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://gustavomendes.vercel.app/about" property="og:url" />
+        <meta content="https://gustavomendes.vercel.app/sobre" property="og:url" />
         {/* <meta content={`https://birobirobiro.dev${image}`} property="og:image" /> */}
       </Head>
 

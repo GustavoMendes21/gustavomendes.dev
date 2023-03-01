@@ -8,8 +8,8 @@ import { useKBar } from 'kbar'
 export default function Navbar() {
   const router = useRouter()
   const pages = [
-    'About',
-    'Projects',
+    'Sobre',
+    'Projetos',
   ]
   const [hovered, setHovered] = useState('')
   const { query } = useKBar()

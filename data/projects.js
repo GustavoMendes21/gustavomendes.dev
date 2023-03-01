@@ -10,10 +10,17 @@ const items = [
         active: true,
       },
       {
-        title: 'DT Money',
-        description: 'Aplicação de Controle Financeiro Desenvolido Durante o Ignite da Rocketseat',
+        title: 'DT Money - Frontend',
+        description: 'Front-end de uma aplicação de controle financeiro',
         url: 'https://github.com/GustavoMendes21/dtmoney-reactjs',
         imageUrl: 'https://raw.githubusercontent.com/GustavoMendes21/dtmoney-reactjs/main/public/screenshot-rocks.png',
+        active: true,
+      },
+      {
+        title: 'DT Money - Backend',
+        description: 'Back-end da aplicação de controle financeiro',
+        url: 'https://github.com/GustavoMendes21/backend-dt-money',
+        imageUrl: 'https://raw.githubusercontent.com/GustavoMendes21/backend-dt-money/main/dt-money-backend-preview.png',
         active: true,
       },
       {
@@ -36,10 +43,10 @@ const items = [
         active: true,
       },
       {
-        title: 'Headset Lading Page',
+        title: 'Conecta + Landing Page',
         description: "Landing Page construida em HTML-CSS-JS",
-        url: 'https://github.com/GustavoMendes21/Landing-page-headset-html-css-js',
-        imageUrl: 'https://raw.githubusercontent.com/GustavoMendes21/Landing-page-headset-html-css-js/main/assets/screenshot-rocks.png',
+        url: 'https://github.com/GustavoMendes21/conecta-saude-landing-page',
+        imageUrl: 'https://raw.githubusercontent.com/GustavoMendes21/conecta-saude-landing-page/master/public/images/conecta-saude-preview.png',
         active: true,
       },
       {

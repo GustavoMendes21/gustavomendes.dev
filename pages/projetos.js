@@ -9,8 +9,8 @@ import items from '../data/projects'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'Projects | Gustavo Mendes',
-    tagline: 'Work, hobby & open source.',
+    title: 'Projetos | Gustavo Mendes',
+    tagline: 'Meus Projetos',
     // image: 'https://github.com/birobirobiro/birobirobiro.dev/blob/main/.github/setup.jpeg',
     primaryColor: 'darkBlue',
     secondaryColor: 'blue',
@@ -22,10 +22,11 @@ export async function getStaticProps() {
 function Projects(props) {
   const renderFeatured = () => {
     const featured = [
-      'Headset Lading Page',
+      'Conecta + Landing Page',
       'Netflix Interface Clone',
       'Broker Premium',
-      'DT Money',
+      'DT Money - Frontend',
+      'DT Money - Backend',
       'AutoTech'
     ]
 
@@ -70,7 +71,7 @@ function Projects(props) {
   }
 
   const { title, image } = props
-  const description = `This page lists the top <strong>${getTotalProjects()}</strong> projects that I developed during my journey as a developer.`
+  const description = `Esta página lista os <strong>${getTotalProjects()}</strong> principais projetos que desenvolvi, na minha jornada como Desenvolvedor.`
 
   return (
     <>
@@ -86,10 +87,10 @@ function Projects(props) {
       <AnimateSharedLayout>
         <p dangerouslySetInnerHTML={{ __html: description }} />
 
-        <h2>Top Projects</h2>
+        <h2>Principais Projetos</h2>
         <FeaturedProjects>{renderFeatured()}</FeaturedProjects>
 
-        <h2>All Projects</h2>
+        <h2>Todos os projetos</h2>
         {renderAll()}
       </AnimateSharedLayout>
     </>
